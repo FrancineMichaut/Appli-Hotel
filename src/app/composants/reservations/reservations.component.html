@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="cards">
+        
+        <div class="row row-cols-1 row-cols-md-3 g-4">                                
+          <div class="col" *ngFor="let r of reservations;">        <!-- ng For = méthode/directive qui duplique le nombre de fois exact mon code html correspondant au nombre de "r" dans mon component "reservations", reservations qui est le nom de mon 2ème tableau dans db.json -->
+            <div class="card h-100">
+              <img src={{r.image}} class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">{{r.title}}</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quod repellat aliquam officiis labore, pariatur eaque atque tempora molestiae fugit!</p>
+                <a href="#" class="btn btn-success">Annuler</a>
+              </div>
+            </div>
+          </div>
+       </div>
+      </div>
+     
+     

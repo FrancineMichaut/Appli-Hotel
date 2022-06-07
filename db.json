@@ -1,0 +1,109 @@
+{
+  "chambres": [
+    {
+      "id": 1,
+      "title": "Chambre double",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://d1vp8nomjxwyf1.cloudfront.net/wp-content/uploads/sites/365/2021/03/24163559/ChambreAmourSup%C3%A9rieure-bleue-rose-%40pionphotographie-4-800x534.jpg",
+      "price": 99,
+      "categorie": "jour"
+    },
+    {
+      "id": 2,
+      "title": "Chambre-suite",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://www.usine-digitale.fr/mediatheque/3/9/8/000493893/hotel-c-o-q-paris.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 3,
+      "title": "Chambre-simple",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://lovehotelaparis.fr/uploads/2019/11/IMG_03-scaled.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 4,
+      "title": "Chambre vue sur mer",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://img.ohmymag.com/article/1280/conso/chambre-d-hotel_933c08fc344d1de8e630e931a9bf35c6664ac400.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 5,
+      "title": "Chambre double",
+      "description": "Ref_Double_Superieure_HDF_303_vue_generale-min-big.jpg",
+      "image": "https://hotelnice.fr/system/images/000/019/703/Ref_Double_Superieure_HDF_303_vue_generale-min-big.jpg?1557912301",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 6,
+      "title": "Chambre enfants",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://www.nomad-hotels.com/sites/default/files/styles/image_carousel/public/styles/image_carousel/public/2019-01/chambre-twin.jpg?itok=WgyWxSqy",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "title": "chambre triple",
+      "description": "lorem",
+      "price": "100",
+      "catégorie": "",
+      "id": 7
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "title": "Chambre double",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://d1vp8nomjxwyf1.cloudfront.net/wp-content/uploads/sites/365/2021/03/24163559/ChambreAmourSup%C3%A9rieure-bleue-rose-%40pionphotographie-4-800x534.jpg",
+      "price": 99,
+      "categorie": "jour"
+    },
+    {
+      "id": 2,
+      "title": "Chambre-suite",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://www.usine-digitale.fr/mediatheque/3/9/8/000493893/hotel-c-o-q-paris.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 3,
+      "title": "Chambre-simple",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://lovehotelaparis.fr/uploads/2019/11/IMG_03-scaled.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 4,
+      "title": "Chambre vue sur mer",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://img.ohmymag.com/article/1280/conso/chambre-d-hotel_933c08fc344d1de8e630e931a9bf35c6664ac400.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 5,
+      "title": "Chambre double",
+      "description": "Ref_Double_Superieure_HDF_303_vue_generale-min-big.jpg",
+      "image": "https://hotelnice.fr/system/images/000/019/703/Ref_Double_Superieure_HDF_303_vue_generale-min-big.jpg?1557912301",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 6,
+      "title": "Chambre enfants",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://www.nomad-hotels.com/sites/default/files/styles/image_carousel/public/styles/image_carousel/public/2019-01/chambre-twin.jpg?itok=WgyWxSqy",
+      "price": 55,
+      "categorie": "semaine"
+    }
+  ]
+}
