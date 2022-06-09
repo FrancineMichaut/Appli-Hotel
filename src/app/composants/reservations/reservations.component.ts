@@ -22,7 +22,7 @@ export class ReservationsComponent implements OnInit {
   }
 
   changeStatus(r:any){
-    this.reservationService.confirmation(r.id, r.confirme).subscribe(data=>{
+    this.reservationService.confirmation(r.id, r.confirme).subscribe(data=>{              // Fonction qui apelle la méthode confirmation (qui se trouve dans les services)
       this.products()
     })
     

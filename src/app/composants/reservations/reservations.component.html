@@ -18,7 +18,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let r of reservations;"  [ngClass]="{'bg-success': r.confirme, 'bg-danger': !r.confirme }">     <!-- Faire une boucle à l'aide de ng For et [ngClass] sert à attribué une classe quand il y a une condition, la condition dans ce cas est créé grâce à l'ajout de"confirme: "" dans Json -->
+      <tr *ngFor="let r of reservations;"  [ngClass]="{'bg-success bg-opacity-10': r.confirme, 'bg-danger bg-opacity-50': !r.confirme }">     <!-- Faire une boucle à l'aide de ng For et [ngClass] sert à attribué une classe quand il y a une condition, la condition dans ce cas est créé grâce à l'ajout de"confirme: "" dans Json -->
         <td>{{r.userName}}</td>
         <td>{{r.arivalDate}}</td>
         <td>{{r.numberDays}}</td>
@@ -27,14 +27,14 @@
         <td>{{r.totalPrice}}</td>
         <td><button 
 
-          type="button" class="btn btn-primary" (click)="changeStatus(r)">
-          <strong *ngIf="r.confirme"> Reservé</strong>
-          <strong *ngIf="!r.confirme"> Annulé </strong>
+          type="button" class="btn btn-primary" (click)="changeStatus(r)">    <!-- méthode au click qui apelle la méthode changerStatus dans TS -->
+          <strong *ngIf="r.confirme">Chambre réservée</strong>
+          <strong *ngIf="!r.confirme">Chambre annulée </strong>
         </button></td>
       
       </tr>
 
-           <!-- [ngClass]="{'bg-success': r.confirme, 'bg-danger': !r.confirme }"  -->
+      
 
     </tbody>
   </table>

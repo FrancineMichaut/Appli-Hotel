@@ -51,23 +51,33 @@
   ],
   "reservations": [
     {
+      "id": 1,
       "userName": "COCO",
       "arivalDate": "2022-06-21",
       "numberDays": 4,
       "titleChambre": "Chambre-suite",
       "price": 55,
       "totalPrice": 220,
-      "id": "fsdg",
       "confirme": false
     },
     {
+      "id": 2,
       "userName": "BABA",
       "arivalDate": "2022-06-21",
       "numberDays": 4,
       "titleChambre": "Chambre-suite",
       "price": 55,
       "totalPrice": 220,
-      "id": "53P6TYN",
+      "confirme": true
+    },
+    {
+      "userName": "Durand",
+      "arivalDate": "2022-06-21",
+      "numberDays": 6,
+      "titleChambre": "Chambre-suite",
+      "price": 55,
+      "totalPrice": 330,
+      "id": 3,
       "confirme": true
     }
   ]
