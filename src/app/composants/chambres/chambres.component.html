@@ -1,20 +1,83 @@
-
-<div class="container">
-<div class="cards">
-    
-    <div class="row row-cols-1 row-cols-md-3 g-4">                                
-      <div class="col" *ngFor="let c of chambres;">        <!-- ng For = méthode/directive qui duplique le nombre de fois exact mon code html correspondant au nombre de "c" dans "chambres", chambres sui est le nom de mon tableau dans db.json -->
+<div class="container mt-5">
+  <div class="cards">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col" *ngFor="let c of chambres;">
+        <!-- ng For = méthode/directive qui duplique le nombre de fois exact mon code html correspondant au nombre de "c" dans "chambres", chambres est le nom de mon tableau dans db.json -->
         <div class="card h-100">
           <img src={{c.image}} class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">{{c.title}}</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quod repellat aliquam officiis labore, pariatur eaque atque tempora molestiae fugit!</p>
-            <a href="#" class="btn btn-primary">Réservez</a>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quod repellat aliquam
+              officiis labore, pariatur eaque atque tempora molestiae fugit!</p>
+
+
+
+
+            <!-- ***************MODaL *********** -->
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-primary" (click)="recupInfoChambre(c)" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              Réserver
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+
+
+
+                    <!-- ***************************************FORMULAIRE************************************************* -->
+                    <form #f="ngForm">
+                      <div class="mb-3">
+
+                        <div class="mb-3">
+                          <label for="disabledTextInput" class="form-label">Nom</label>
+                          <input type="text" name="nom" class="form-control" placeholder="..." ngModel requiered>
+                        </div>
+
+                        <label for="disabledTextInput" class="form-label">Date d'arrivée</label>
+                        <input id="nombreNuits" type="date" name="date" class="form-control" placeholder="..." ngModel
+                          requiered>
+
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="disabledTextInput" class="form-label">Nombre de nuits réservées</label>
+                        <input type="number" name="nombreDeNuit" class="form-control" placeholder="..." ngModel
+                          requiered>
+                      </div>
+
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        <button type="submit" class="btn btn-primary"
+                          (click)="create(f.value)">Enregistrer</button>
+                        <!-- booking, méthode create qui ajoute un objet entièrement dans la base de donnée json, dans le deuxième tableau : réseravtions -->
+                      </div>
+
+
+                    </form>
+
+                    <!-- *******************************Fin formulaire*********************** -->
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
             <!-- ***************méthode  delete avec id de chambre en paramètre*********** -->
-            <p class="btn btn-primary" (click)="delete(c.id)">delete</p>
+            <p class="btn btn-outline-danger ms-3 mb-0" (click)="delete(c.id)">delete</p>
           </div>
         </div>
       </div>
-   </div>
+    </div>
   </div>
- 
+</div>

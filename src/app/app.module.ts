@@ -9,9 +9,11 @@ import { BarrenavComponent } from './composants/barrenav/barrenav.component';
 import { AccueilComponent } from './composants/accueil/accueil.component';
 import { ChambresComponent } from './composants/chambres/chambres.component';
 import { ReservationsComponent } from './composants/reservations/reservations.component';
-import { AutresServicesComponent } from './composants/autres-services/autres-services.component';
+
 import { AjouterunechambreComponent } from './composants/ajouterunechambre/ajouterunechambre.component';
 import { FormsModule } from '@angular/forms';
+
+
 
 
 @NgModule({
@@ -21,15 +23,16 @@ import { FormsModule } from '@angular/forms';
     ChambresComponent,
     AccueilComponent,
     ReservationsComponent,
-    AutresServicesComponent,
+
     AjouterunechambreComponent,
+
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,                  // Module qui permet d'effectuer les requêtes http
-       FormsModule       
+       FormsModule                         // importe un formulaire
   ],
   providers: [],
   bootstrap: [AppComponent]

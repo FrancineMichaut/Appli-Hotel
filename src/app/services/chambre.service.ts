@@ -15,6 +15,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -24,20 +25,21 @@ export class ChambreService {    // angular créé un dossier services, à l'int
 
 
   getproducts(){
-    return this.http.get("http://localhost:3000/chambres");  // 1ère étape de la méthode get qui appelle la requête de mes produits, la 2ème étape se trouve dans le composant "chambres", on va consommer les données de la méthode getProducts en créant une méthode products(), mais il faut d'abord injecter mon service pour pouvoir accéder à ses méthodes : constructor(private chambresService : ChambresService) { }. Je dois aussi créer un tableau local chambress [], où je vais stocker tous mes éléments que je récupère via ma méthode products(). 
+    return this.http.get("http://localhost:3000/chambres");  /* 1ère étape de la méthode get qui appelle la requête de mes produits, la 2ème étape se trouve dans le composant "chambres", on va consommer les données de la méthode getProducts en créant une méthode products(), mais il faut d'abord injecter mon service pour pouvoir accéder à ses méthodes : constructor(private chambresService : ChambresService) { }. Je dois aussi créer un tableau local chambress [], où je vais stocker tous mes éléments que je récupère via ma méthode products(). */
   }
   
   
 saveChambre(chambre:any){
-  return this.http.post("http://localhost:3000/chambres", chambre)
+
+  return this.http.post("http://localhost:3000/chambres", chambre)   // méthode qui enregistre les modifications apportées dans la partie admin, ajouter une chambre 
 }
 
 delete(id : any){
-  return this.http.delete("http://localhost:3000/chambres/"+id)
+  return this.http.delete("http://localhost:3000/chambres/"+id)    // méthode qui supprime les cards dans le component chambres 
 }
 
-
+create(data:any){
+  return this.http.post("http://localhost:3000/reservations",data)       // méthode qui récupère les données du formulaire dans le bouton réserver et qui les rajoutent (qui créé) un nouvel oblet dans JsonpClientBackend, taneau "reservations" 
 }
 
-
-
+}

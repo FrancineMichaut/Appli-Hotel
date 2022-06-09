@@ -8,7 +8,6 @@ import { ReservationService } from 'src/app/services/reservation.service';
 })
 export class ReservationsComponent implements OnInit {
   reservations: any;
-
   constructor(private reservationService: ReservationService) {}
 
   ngOnInit(): void {
@@ -21,4 +20,13 @@ export class ReservationsComponent implements OnInit {
       console.log(this.reservations);
     });
   }
+
+  changeStatus(r:any){
+    this.reservationService.confirmation(r.id, r.confirme).subscribe(data=>{
+      this.products()
+    })
+    
+  }
+
 }
+
