@@ -37,13 +37,13 @@ export class ChambresComponent implements OnInit {
     });
   }
 
-  delete(id: any) {
-    this.chambreService.delete(id).subscribe(() => {
-      console.log('product with id:' + id + '+deleted');
+  // delete(id: any) {
+  //   this.chambreService.delete(id).subscribe(() => {
+  //     console.log('product with id:' + id + '+deleted');
 
-      this.products();
-    });
-  }
+  //     this.products();
+  //   });
+  // }
 
   recupInfoChambre(c: any) {
     this.reservations.titleChambre = c.title;
@@ -55,9 +55,6 @@ export class ChambresComponent implements OnInit {
     console.log(reserver.value); // à finir
   }
 
-  calculPrixsejour(prixsejour: any) {
-    console.log(prixsejour.value); // à finir
-  }
 
   create(f: any) {
     // let tata = formReservation.value;

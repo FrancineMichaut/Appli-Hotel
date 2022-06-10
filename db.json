@@ -68,7 +68,7 @@
       "titleChambre": "Chambre-suite",
       "price": 55,
       "totalPrice": 220,
-      "confirme": true
+      "confirme": false
     },
     {
       "userName": "Durand",
@@ -79,6 +79,51 @@
       "totalPrice": 330,
       "id": 3,
       "confirme": true
+    },
+    {
+      "userName": "",
+      "arivalDate": "",
+      "numberDays": "",
+      "titleChambre": "Chambre-suite",
+      "price": 55,
+      "totalPrice": 0,
+      "id": 4
+    },
+    {
+      "userName": "m",
+      "arivalDate": "2022-06-07",
+      "numberDays": 2,
+      "titleChambre": "Chambre-suite",
+      "price": 55,
+      "totalPrice": 110,
+      "id": 5
+    },
+    {
+      "userName": "m",
+      "arivalDate": "2022-06-07",
+      "numberDays": 2,
+      "titleChambre": "Chambre-suite",
+      "price": 55,
+      "totalPrice": 110,
+      "id": 6
+    },
+    {
+      "userName": "m",
+      "arivalDate": "2022-06-07",
+      "numberDays": 2,
+      "titleChambre": "Chambre-suite",
+      "price": 55,
+      "totalPrice": 110,
+      "id": 7
+    },
+    {
+      "userName": "",
+      "arivalDate": "",
+      "numberDays": 2,
+      "titleChambre": "Chambre-suite",
+      "price": 55,
+      "totalPrice": 110,
+      "id": 8
     }
   ]
 }

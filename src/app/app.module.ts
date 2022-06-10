@@ -12,6 +12,9 @@ import { ReservationsComponent } from './composants/reservations/reservations.co
 
 import { AjouterunechambreComponent } from './composants/ajouterunechambre/ajouterunechambre.component';
 import { FormsModule } from '@angular/forms';
+import { AquagymComponent } from './composants/aquagym/aquagym.component';
+import { PianoBarComponent } from './composants/piano-bar/piano-bar.component';
+import { RandonneesComponent } from './composants/randonnees/randonnees.component';
 
 
 
@@ -25,6 +28,9 @@ import { FormsModule } from '@angular/forms';
     ReservationsComponent,
 
     AjouterunechambreComponent,
+     AquagymComponent,
+     PianoBarComponent,
+     RandonneesComponent,
 
     
   ],

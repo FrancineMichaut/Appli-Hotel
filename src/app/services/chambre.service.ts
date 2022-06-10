@@ -34,12 +34,12 @@ saveChambre(chambre:any){
   return this.http.post("http://localhost:3000/chambres", chambre)   // méthode qui enregistre les modifications apportées dans la partie admin, ajouter une chambre 
 }
 
-delete(id : any){
-  return this.http.delete("http://localhost:3000/chambres/"+id)    // méthode qui supprime les cards dans le component chambres 
-}
+// delete(id : any){
+//   return this.http.delete("http://localhost:3000/chambres/"+id)    // méthode qui supprime les cards dans le component chambres 
+// }
 
 create(data:any){
-  return this.http.post("http://localhost:3000/reservations",data)       // méthode qui récupère les données du formulaire dans le bouton réserver et qui les rajoutent (qui créé) un nouvel oblet dans JsonpClientBackend, taneau "reservations" 
+  return this.http.post("http://localhost:3000/reservations",data)       // méthode qui récupère les données du formulaire dans le bouton réserver et qui les rajoutent (qui créé) un nouvel oblet dans Jsonp, tableau "reservations" 
 }
 
 }

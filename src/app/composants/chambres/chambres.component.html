@@ -59,7 +59,7 @@
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
                         <button type="submit" class="btn btn-primary"
-                          (click)="create(f.value)">Enregistrer</button>
+                          (click)="create(f.value)" data-bs-dismiss="modal">Enregistrer</button>
                         <!-- booking, méthode create qui ajoute un objet entièrement dans la base de donnée json, dans le deuxième tableau : réseravtions -->
                       </div>
 
@@ -74,7 +74,7 @@
             </div>
 
             <!-- ***************méthode  delete avec id de chambre en paramètre*********** -->
-            <p class="btn btn-outline-danger ms-3 mb-0" (click)="delete(c.id)">delete</p>
+            <!-- <p class="btn btn-outline-danger ms-3 mb-0" (click)="delete(c.id)">delete</p> -->
           </div>
         </div>
       </div>
