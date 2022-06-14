@@ -71,7 +71,13 @@
                   
                 </div>
               </div>
-            </div>
+
+
+
+
+
+
+
 
             <!-- ***************méthode  delete avec id de chambre en paramètre*********** -->
             <!-- <p class="btn btn-outline-danger ms-3 mb-0" (click)="delete(c.id)">delete</p> -->
@@ -81,3 +87,29 @@
     </div>
   </div>
 </div>
+
+<footer>
+<!-- méthode pagination avec page et limite en paramètre  -->
+
+  <nav aria-label="...">
+    <ul class="pagination pagination-lg">
+      <li id="pagin" class="page-item active" aria-current="page" *ngFor="let i of pages">
+        <a class="page-link" (click)="pagination(i)">{{i}}</a>
+      </li>
+  
+    </ul>
+  </nav>
+
+
+
+
+
+<!-- <nav aria-label="Page navigation example">
+  <ul class="pagination" *ngFor="let i of pages">
+    <li class="page-item"><a class="page-link" href="#" >Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#"(click)="pagination(i)">{{i}}</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav> -->
+
+</footer>

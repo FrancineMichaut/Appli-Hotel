@@ -47,7 +47,154 @@
       "image": "https://i0.wp.com/www.lhommetendance.fr/wp-content/uploads/2020/10/plaza-tour-eiffel-Chambre-Deluxe-Triple.jpg?ssl=1",
       "price": 55,
       "categorie": "semaine"
+    },
+    {
+      "id": 7,
+      "title": "Chambre-lune de miel",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://www.nuitdereves.fr/src/2019/photos/appartement-nuit-reve-metz006.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 8,
+      "title": "Chambre-bulle",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://cdn.shopify.com/s/files/1/0579/3611/7944/products/loft-oduo-spa-francorchamps-loft-lovenspa-671489.jpg?v=1636557613",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 9,
+      "title": "Chambre-bulle",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/288798363.jpg?k=69533c184a6a838e59ea9a45b542cdb2bb40749b2223620be83ed3829d312c49&o=&hp=1",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 10,
+      "title": "Chambre Jacuzzi",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/317390157.jpg?k=0411ccce4495bf515eddc4e2092dbaf92ffbd218ceffd501e5ff8185c61613b0&o=&hp=1",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 11,
+      "title": "Chambre Jacuzzi",
+      "description": "Ref_Double_Superieure_HDF_303_vue_generale-min-big.jpg",
+      "image": "https://i.pinimg.com/564x/73/f6/7c/73f67c143400a94ea464f0f7a015daa0.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 12,
+      "title": "Chambre bien-être",
+      "description": "Ref_Double_Superieure_HDF_303_vue_generale-min-big.jpg",
+      "image": "https://www.nuitdereves.fr/src/2019/photos/appartement-nuit-reve-metz007.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 13,
+      "title": "Chambre-terasse",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://dq5r178u4t83b.cloudfront.net/wp-content/uploads/sites/69/2017/12/08135907/4086-34-1200x690.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 14,
+      "title": "Chambre-balcon",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://photos.mandarinoriental.com/is/image/MandarinOriental/paris-2017-suite-terrace-suite-bedroom?wid=4000&fmt=jpeg,rgb&qlt=63,0&op_sharpen=0&resMode=sharp2&op_usm=0,0,0,0&icc=sRGB%20IEC61966-2.1&iccEmbed=1&printRes=72&fit=wrap&qlt=45,0",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 15,
+      "title": "Chambre avec extérieur",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://photos.mandarinoriental.com/is/image/MandarinOriental/paris-suite-cabochons-suite?wid=4000&fmt=jpeg,rgb&qlt=63,0&op_sharpen=0&resMode=sharp2&op_usm=0,0,0,0&icc=sRGB%20IEC61966-2.1&iccEmbed=1&printRes=72&fit=wrap&qlt=45,0",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 16,
+      "title": "Chambre vue sur mer",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://2qckhl2zg35s3ulzlszs60m6-wpengine.netdna-ssl.com/wp-content/uploads/sites/174/2020/06/Bailli-suffren-_2017-05-04_Chambres-renovees-13-2200x1200.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 17,
+      "title": "Chambre jardin",
+      "description": "Ref_Double_Superieure_HDF_303_vue_generale-min-big.jpg",
+      "image": "https://www.avignon-grand-hotel.com/media/xt-adaptive-images/480/images/photos/chambres/superieure-vue-jardin/Chambre-superieur-Avignon-Grand-Hotel-1.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 18,
+      "title": "Chambre jardin",
+      "description": "Ref_Double_Superieure_HDF_303_vue_generale-min-big.jpg",
+      "image": "https://www.avignon-grand-hotel.com/images/Chambres/junior-suite-balcon-terrasse/Chambre-juniorsuite-Avignon-Grand-Hotel-2.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 19,
+      "title": "Chambre-suite",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://www.hoteldarcorleans.fr/wp-content/uploads/2020/01/YLB-BWOrle-gen-5.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 20,
+      "title": "Chambre-suite",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://www.usine-digitale.fr/mediatheque/3/9/8/000493893/hotel-c-o-q-paris.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 21,
+      "title": "Chambre-simple",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://lovehotelaparis.fr/uploads/2019/11/IMG_03-scaled.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 22,
+      "title": "Chambre vue sur mer",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero itaque optio molestiae perspiciatis voluptatem atque mollitia odit sit nihil fugit. Placeat saepe, facilis dignissimos illum consequuntur rem minus repellendus accusamus veniam doloremque doloribus maiores accusantium at nam voluptatem natus nesciunt eveniet amet sunt impedit veritatis. Ipsum nam quidem quaerat accusamus?",
+      "image": "https://img.ohmymag.com/article/1280/conso/chambre-d-hotel_933c08fc344d1de8e630e931a9bf35c6664ac400.jpg",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 23,
+      "title": "Chambre double",
+      "description": "Ref_Double_Superieure_HDF_303_vue_generale-min-big.jpg",
+      "image": "https://hotelnice.fr/system/images/000/019/703/Ref_Double_Superieure_HDF_303_vue_generale-min-big.jpg?1557912301",
+      "price": 55,
+      "categorie": "semaine"
+    },
+    {
+      "id": 24,
+      "title": "Chambre double",
+      "description": "Ref_Double_Superieure_HDF_303_vue_generale-min-big.jpg",
+      "image": "https://i0.wp.com/www.lhommetendance.fr/wp-content/uploads/2020/10/plaza-tour-eiffel-Chambre-Deluxe-Triple.jpg?ssl=1",
+      "price": 55,
+      "categorie": "semaine"
     }
+
+
+
   ],
   "reservations": [
     {
@@ -124,6 +271,15 @@
       "price": 55,
       "totalPrice": 110,
       "id": 8
+    },
+    {
+      "userName": "diaby",
+      "arivalDate": "2022-06-15",
+      "numberDays": 6,
+      "titleChambre": "Chambre-suite",
+      "price": 55,
+      "totalPrice": 330,
+      "id": 9
     }
   ]
 }

@@ -9,6 +9,13 @@ import { ChambreService } from 'src/app/services/chambre.service'; // problème 
 })
 export class ChambresComponent implements OnInit {
   chambres: any;
+  pages=[1,2,3];
+
+
+
+
+
+
 
   reservations: any = {
     // recup from form
@@ -26,16 +33,16 @@ export class ChambresComponent implements OnInit {
 
   ngOnInit(): void {
     // ngOnInit aide à savoir quand c'est le bon moment pour appeller la méthode
-    this.products(); // rappel: la méthode getproducts a été déclarée dans la partie service (1ère étape)
+    this.pagination(0); // rappel: la méthode getproducts a été déclarée dans la partie service (1ère étape), on a plus besoin depuis qu'on amis la pagination, on a donc enlevé la méthode products et on a mis à la place la méthode this.pagination
   }
 
-  products() {
-    this.chambreService.getproducts().subscribe((data) => {
-      // méthode products qui récupère mes ChambresComponent
-      this.chambres = data;
-      console.log(this.chambres);
-    });
-  }
+  // products() {
+  //   this.chambreService.getproducts().subscribe((data) => {
+  //     // méthode products qui récupère mes ChambresComponent
+  //     // this.chambres = data;
+  //     console.log(this.chambres);
+  //   });
+  // }
 
   // delete(id: any) {
   //   this.chambreService.delete(id).subscribe(() => {
@@ -71,5 +78,26 @@ export class ChambresComponent implements OnInit {
       // fonction qui récupère les données du formulaire dans le bouton réserver et qui les rajoutent (qui créé) un nouvel oblet dans Jsonp, tableau "reservations"
       console.log('data success ! ', data);
     });
-  }
+
+    }
+
+    //**************************** */ Méthode de pagination *****************************
+    pagination(i: any){
+      console.log(i);
+      let numblimite = 6;
+     
+      this.chambreService.pagin(i, numblimite).subscribe(data =>{
+        this.chambres = data;
+        console.log(this.chambres);
+  
+      });
+
+      }
+      // remplacer dans ngonInit, this.pagination(0)
+
+      
+      
+
+
+
 }

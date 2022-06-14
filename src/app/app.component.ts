@@ -7,4 +7,45 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'appli_hotel';
+
+
+//   authentification = {
+//     Username: "Francine",
+//     Motdepasse: "1111",
+//     }
+
+//     boutonLogin: Boolean = false
+
+// validate(){
+// this.boutonLogin=!this.boutonLogin
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+

@@ -13,6 +13,7 @@
 
 
 import { HttpClient } from '@angular/common/http';
+import { literalMap } from '@angular/compiler';
 import { Injectable } from '@angular/core';
 
 
@@ -41,5 +42,11 @@ saveChambre(chambre:any){
 create(data:any){
   return this.http.post("http://localhost:3000/reservations",data)       // méthode qui récupère les données du formulaire dans le bouton réserver et qui les rajoutent (qui créé) un nouvel oblet dans Jsonp, tableau "reservations" 
 }
+
+// méthode de pagination dont on va préciser la page et la limite dans TS 
+pagin(page:any, limite:any){
+return this.http.get(`http://localhost:3000/chambres?_page=${page}&_limit=${limite}`)
+}
+
 
 }

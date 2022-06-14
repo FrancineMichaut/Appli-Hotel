@@ -6,7 +6,7 @@
         <nav class="navbar navbar-expand-lg bg-link">
             <div class="container-fluid">
 
-                <div class="fs-2">H O T E L  &nbsp; M A S S I L I A</div>
+                <div class="fs-2">H O T E L &nbsp; M A S S I L I A</div>
                 <a class="navbar-brand ms-5" href="#">&nbsp; L'hôtel &nbsp;</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -34,7 +34,8 @@
                                 <a class="navbar-brand" href="#" id="navbarDropdownMenuLink" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">&nbsp; Les activités &nbsp;</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#" routerLink="/randonnees">Les randonnées</a></li>
+                                    <li><a class="dropdown-item" href="#" routerLink="/randonnees">Les randonnées</a>
+                                    </li>
                                     <li><a class="dropdown-item" href="#" routerLink="/piano-bar">Le piano bar</a></li>
                                     <li><a class="dropdown-item" href="#" routerLink="/aquagym">L'aquagym</a></li>
                                 </ul>
@@ -49,25 +50,29 @@
 
 
 
-                    
+
                     <div class="col-2 ms-5">
 
-                        
-                        <ul class="navbar-nav me-auto ms-3 mb-lg-2">
-                           
+
+                        <ul class="navbar-nav me-auto ms-3 mb-lg-2" >
+
                             <li class="nav-item dropdown">
-                               
+
                                 <a class="btn btn-light nav-link dropdown-toggle" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    data-bs-toggle="dropdown" aria-expanded="false" *ngIf="boutonLogin">
                                     Administrateur
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    
+
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item"  routerLink="/reservations">Gestion des réservations</a></li>
-                                    <li><a class="dropdown-item" routerLink="/ajouterunechambre" >Ajouter une chambre</a></li>
+
+
+                                    <li><a class="dropdown-item" routerLink="/reservations">Gestion des réservations</a>
+                                    </li>
+                                    <li><a class="dropdown-item" routerLink="/ajouterunechambre">Ajouter une chambre</a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
@@ -76,33 +81,117 @@
 
 
                     </div>
-              
-
-                    
-
-
-
-
-
-
-
-
-
 
 
                 </div>
 
 
-
-
-
-
             </div>
         </nav>
+        
 
-    </div>
+
+
+           <!-- message d'alert a déclancher si le username et le motdepasse sont incorrect -->
+           <div class="alert alert-primary" *ngIf="alertId" role="alert">
+            Votre nom et/ou mot de passe est incorrect
+           </div>
+
+
+
+    <!-- début modal pour login avec formulaire: username et mot de passe -->
+
+
+    <!-- Button trigger modal -->
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" *ngIf="!boutonLogin">
+        Login
+    </button>
+    <!-- <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Inscription
+    </button> -->
+</div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Identification</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+
+                    <!-- ***************************************FORMULAIRE************************************************* -->
+                    <form #f="ngForm">
+                        <div class="mb-3">
+
+                            <div class="mb-3">
+                                <label for="disabledTextInput"  class="form-label">Username</label>
+                                <input type="text" name="Username" [(ngModel)]="recupform.Username" class="form-control" placeholder="..." ngModel requiered>
+                            </div>
+
+                            <label for="disabledTextInput"  class="form-label">Mot de passe</label>
+                            <input type="any" name="Motdepasse" [(ngModel)]="recupform.Motdepasse" class="form-control" placeholder="..."
+                                ngModel requiered>
+
+                        </div>
+
+
+
+
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary" data-bs-dismiss="modal"  (click)="validate()">Valider</button>
+                            
+                        </div>
+
+
+
+
+
+                    </form>
+
+                    <!-- *******************************Fin formulaire*********************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
+  
+  <!-- ********************************************* Fin navbar******************************** -->
+
 
 
 </div>
-
-<!-- ********************************************* Fin navbar******************************** -->
+</div>
