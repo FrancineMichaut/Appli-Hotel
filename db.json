@@ -192,9 +192,6 @@
       "price": 55,
       "categorie": "semaine"
     }
-
-
-
   ],
   "reservations": [
     {
@@ -205,7 +202,7 @@
       "titleChambre": "Chambre-suite",
       "price": 55,
       "totalPrice": 220,
-      "confirme": false
+      "confirme": true
     },
     {
       "id": 2,
